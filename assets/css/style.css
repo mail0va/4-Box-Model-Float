@@ -1,0 +1,249 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    i {
+        font-size: 55px;
+        color: #fff;
+    }
+    
+    ul li {
+        list-style: none;
+    }
+    /* NAV-HEADER */
+    /* .header {
+        padding: 10px 5rem;
+        position: fixed;
+        background-color: #212529;
+        width: 100%;
+    } */
+    
+    .header .logo a {
+        float: left;
+        font-size: 30px;
+        color: #ffc800;
+    }
+    
+    .header .navbar {
+        float: right;
+    }
+    
+    .header .navbar a {
+        transition: .6s;
+    }
+    
+    .header .navbar a:hover {
+        color: #ffc800;
+    }
+    
+    .nav-link {
+        color: #fff;
+        font-size: 22px;
+    }
+    
+    .header .navbar a {
+        margin-left: 30px;
+    }
+    /* WELCOME */
+    
+    .welcome {
+        background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 22rem 0;
+    }
+    
+    .welcome .nav-title {
+        text-align: center;
+        color: white;
+        font-size: 33px;
+    }
+    
+    .welcome .nav-title h1 {
+        margin-top: 30px;
+        margin-bottom: 60px;
+        font-size: 85px;
+    }
+    
+    .welcome .nav-title .btn-title {
+        background-color: #ffc800;
+        color: #fff;
+        padding: 25px 70px;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: .7s;
+    }
+    
+    .welcome .nav-title .btn-title:hover {
+        background-color: #aa870b;
+    }
+    /* SERVICE */
+    
+    .service .title {
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    
+    .service .title h1 {
+        font-size: 44px;
+        margin-bottom: 20px;
+    }
+    
+    .service .title em {
+        font-size: 22px;
+        color: rgb(156, 136, 136);
+    }
+    
+    .service .desc {
+        float: left;
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .service .desc .service-icon {
+        background-color: #ffc800;
+        border-radius: 100%;
+        width: 150px;
+        height: 150px;
+        position: relative;
+    }
+    
+    .service .desc .service-icon i {
+        font-size: 54px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .service .desc .service-title {
+        text-align: center;
+        font-size: 25px;
+        margin: 30px 0;
+    }
+    
+    .service .desc .service-desc {
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(156, 136, 136);
+    }
+    /* PORTFOLIO */
+    
+    .portfolio {
+        text-align: center;
+    }
+    /* .portfolio .title {
+    text-align: center;
+} */
+    
+    .portfolio .title h1 {
+        font-size: 33px;
+    }
+    /* .portfolio .all-cards .portfolio-cards .portfolio-title {
+    text-align: center;
+} */
+    
+    .portfolio .all-cards .portfolio-cards .portfolio-image img {
+        margin-top: 33px;
+        width: 100%;
+    }
+    
+    .portfolio .portfolio-cards {
+        float: left;
+        margin-left: 66px;
+        width: 28%;
+        margin-bottom: 50px;
+    }
+    /* TEAM */
+    /* .team {
+        overflow: auto;
+    }
+     */
+    
+    .team .title {
+        text-align: center;
+    }
+    
+    .team .all-cards .card {
+        width: 33%;
+        float: left;
+        text-align: center;
+    }
+    
+    .team .all-cards .card .img img {
+        margin-top: 33px;
+        height: 240px;
+        border-radius: 50%;
+    }
+    
+    .team .title p {
+        margin-top: 18px;
+        color: rgb(156, 136, 136);
+        font-size: 20px;
+    }
+    
+    .team .all-cards .card .team-title p {
+        color: rgb(156, 136, 136);
+        font-size: 20px;
+    }
+    
+    .a-link {
+        color: #fff;
+        background-color: #212529;
+        margin-bottom: 50px;
+        border-radius: 100%;
+    }
+    
+    .team .all-cards .card .team-icons .a-link {
+        height: 40px;
+        width: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    .team .all-cards .card .team-icons .a-link i {
+        font-size: 20px;
+    }
+    
+    .team .all-cards .team-desc {
+        width: 57%;
+        margin: 0 auto;
+        color: rgb(156, 136, 136);
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 100px;
+    }
+    
+    .team .all-cards .site-img a {
+        width: 15%;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Contact us */
+    /* FOOTER */
+    /* .footer .f-link i {
+    font-size: 20px;
+}
+
+.f-link {
+    color: #fff;
+    background-color: #212529;
+    margin-bottom: 50px;
+    border-radius: 100%;
+} */
